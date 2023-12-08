@@ -25,5 +25,4 @@ node {
   stage ('Install') {
       sh "'${mvnHome}/bin/mvn' install"
   }
- 
 }
