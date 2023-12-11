@@ -24,13 +24,13 @@
     <distributionManagement>
     <snapshotRepository>
         <id>snapshots</id>
-        <name>a0bdlik6tnfce-artifactory-primary-0-snapshots</name>
-        <url>https://devopskesav.jfrog.io/artifactory/libs-snapshot</url>
+        <name>vin-libs-snapshots-local</name>
+        <url>http://44.211.183.98:8082/artifactory/vin-libs-snapshots-local/</url>
     </snapshotRepository>
     <repository>
         <id>central</id>
-        <name>a0bdlik6tnfce-artifactory-primary-0-releases</name>
-        <url>https://devopskesav.jfrog.io/artifactory/libs-releases</url>
+        <name>vin-libs-release-local</name>
+        <url>http://44.211.183.98:8082/artifactory/vin-libs-release-local/</url>
     </repository>	
 </distributionManagement>
     
