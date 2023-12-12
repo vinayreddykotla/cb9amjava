@@ -49,7 +49,7 @@ pipeline {
             }
         }
 
-        stage('Stage-8 : Deploy an Artifact to Artifactory Manager i.e. Nexus/Jfrog') { 
+        stage('Stage-8 : Deploy an Artifact to AWS CodeArtifact') { 
             steps {
                 sh 'mvn deploy'
             }
