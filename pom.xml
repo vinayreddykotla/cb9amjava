@@ -22,13 +22,16 @@
 
     
     <distributionManagement>
-    
-  <repository>
-    <id>vindevops-vinaydevops</id>
-    <name>vindevops-vinaydevops</name>
-    <url>https://vindevops-215816675325.d.codeartifact.us-east-1.amazonaws.com/maven/vinaydevops/</url>
-  </repository>
-
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>vin-libs-snapshot-local</name>
+        <url>http://34.238.28.229:8082/artifactory/vin-libs-snapshots-local/</url>
+    </snapshotRepository>
+    <repository>
+        <id>releases</id>
+        <name>vin-libs-release-local</name>
+        <url>http://34.238.28.229:8082/artifactory/vin-libs-release-local/</url>
+    </repository>	
 </distributionManagement>
     
     <dependencies>
