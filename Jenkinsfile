@@ -57,13 +57,13 @@ pipeline {
 
        stage('Stage-9 : Deployment - Deploy a Artifact devops-2.0.0-SNAPSHOT.war file to Tomcat Server') { 
             steps {
-                sh 'curl -u admin:Earth@1a -T target/**.war "http://54.234.20.171:8080/manager/text/deploy?path=/cbapp&update=true"'
+                sh 'curl -u admin:Earth@1a -T target/**.war "http://3.239.192.104:8080/manager/text/deploy?path=/cbapp&update=true"'
             }
         } 
   
        stage('Stage-10 : SmokeTest') { 
             steps {
-                sh 'curl --retry-delay 10 --retry 5 "http://54.234.20.171:8080/cbapp"'
+                sh 'curl --retry-delay 10 --retry 5 "http://3.239.192.104:8080/vindev"'
             }
         }
     }
