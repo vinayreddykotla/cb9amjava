@@ -28,7 +28,7 @@
         <url>https://kvkrdevops2025.jfrog.io/artifactory/kvkrdevops2025-snapshots/</url>
     </snapshotRepository>
     <repository>
-        <id>releases</id>
+        <id>release</id>
         <name>kvkrdevops2025-release</name>
         <url>https://kvkrdevops2025.jfrog.io/artifactory/kvkrdevops2025-release/</url>
     </repository>	
