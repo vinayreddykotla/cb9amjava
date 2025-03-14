@@ -24,13 +24,13 @@
      <distributionManagement>
     <snapshotRepository>
         <id>snapshots</id>
-        <name>vin-libs-snapshots-local</name>
-        <url>http://44.197.208.197:8082/artifactory/vin-libs-snapshots-local/</url>
+        <name>kvkrdevops2025-snapshots</name>
+        <url>https://kvkrdevops2025.jfrog.io/artifactory/kvkrdevops2025-snapshots/</url>
     </snapshotRepository>
     <repository>
-        <id>central</id>
-        <name>vin-libs-release-local</name>
-        <url>http://44.197.208.197:8082/artifactory/vin-libs-release-local/</url>
+        <id>releases</id>
+        <name>kvkrdevops2025-release</name>
+        <url>https://kvkrdevops2025.jfrog.io/artifactory/kvkrdevops2025-release/</url>
     </repository>	
 </distributionManagement>
     
