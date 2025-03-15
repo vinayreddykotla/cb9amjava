@@ -2,7 +2,7 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.aws.codestar.projecttemplates</groupId>
-    <artifactId>kvkrdevops</artifactId>
+    <artifactId>kvkrdevops-2025</artifactId>
     <version>4.0.0-SNAPSHOT</version>
     <packaging>war</packaging>
     <name>Cloud Binary Sample Spring MVC Application</name>
@@ -24,16 +24,19 @@
 
 
 <distributionManagement>
+
     <repository>
-        <id>release</id>
-        <name>kvkrdevops2025-release</name>
-        <url>https://kvkrdevops2025.jfrog.io/artifactory/kvkrdevops2025-release/</url>
+        <id>releases</id>
+        <name>kkvkr-devops-2025-local-releases</name>
+        <url>https://kvkrdevops2025.jfrog.io/artifactory/kvkr-devops-2025-local-releases/</url>
     </repository>
+
     <snapshotRepository>
         <id>snapshots</id>
-        <name>kvkrdevops2025-snapshots</name>
-        <url>https://kvkrdevops2025.jfrog.io/artifactory/kvkrdevops2025-snapshots/</url>
+        <name>kvkr-devops-2025-local-snapshots</name>
+        <url>https://kvkrdevops2025.jfrog.io/artifactory/kvkr-devops-2025-local-snapshots/</url>
     </snapshotRepository>
+
 </distributionManagement>
 
     
