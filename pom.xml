@@ -28,14 +28,14 @@
 
     <repository>
         <id>releases</id>
-        <name>kkvkr-devops-2025-local-releases</name>
-        <url>https://kvkrdevops2025.jfrog.io/artifactory/kvkr-devops-2025-local-releases/</url>
+        <name>DevOps-local-release</name>
+        <url>https://devops2025.jfrog.io/artifactory/DevOps-local-release/</url>
     </repository>
 
     <snapshotRepository>
         <id>snapshots</id>
-        <name>kvkr-devops-2025-local-snapshots</name>
-        <url>https://kvkrdevops2025.jfrog.io/artifactory/kvkr-devops-2025-local-snapshots/</url>
+        <name>DevOps-local-snapshots</name>
+        <url>https://devops2025.jfrog.io/artifactory/DevOps-local-snapshots/</url>
     </snapshotRepository>
 
 </distributionManagement>
