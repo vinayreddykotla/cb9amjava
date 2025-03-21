@@ -27,7 +27,7 @@
 <distributionManagement>
 
     <repository>
-        <id>releases</id>
+        <id>release</id>
         <name>DevOps-local-release</name>
         <url>https://devops2025.jfrog.io/artifactory/DevOps-local-release/</url>
     </repository>
